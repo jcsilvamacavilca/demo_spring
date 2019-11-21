@@ -27,3 +27,20 @@ spring:
   profiles: noun
 words: barco, libro, voto, asiento, mochila, partición
 
+---
+spring:
+  profiles: primary
+server:
+  port: 8011
+
+---
+spring:
+  profiles: secondary
+server:
+  port: 8012
+  
+---
+spring:
+  profiles: tertiary
+server:
+  port: 8013
